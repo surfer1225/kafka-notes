@@ -32,10 +32,10 @@
 4. High throughput (horizontally scalable)
 5. Flexible publish-subscribe semantics: Kafka as central broker
 
-![pic](./linkedIn_architecture.PNG)
+![pic](./linkedIn_architecture.png)
 
 ### Chapter 2: Architecture
-![pic](./msg_system.PNG)
+![pic](./msg_system.png)
 ##### Broker Role
 - messages in topics kept in broker
 - broker as a daemon software process running on a machine
@@ -54,7 +54,7 @@
 - central Kafka abstraction
 - named feed or category of messages: for producers to produce into and consumers to consume from
 - Logical entity
-![pic](./topic.PNG)
+![pic](./topic.png)
 - topic could span multiple brokers
 - when producers send a message to a Kafka topic:
   1. appended to a time-ordered sequential stream
